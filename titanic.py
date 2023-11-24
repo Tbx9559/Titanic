@@ -152,5 +152,6 @@ plt.title('Confusion Matrix for SVM')
 plt.xlabel('Predicted')
 plt.ylabel('True')
 plt.show()
-
+from joblib import dump, load
+dump('titanic_lreg_model_save.joblib')
 
